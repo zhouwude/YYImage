@@ -150,21 +150,27 @@ Installation
 1. Download all the files in the YYImage subdirectory.
 2. Add the source files to your Xcode project.
 3. Link with required frameworks:
-	* UIKit.framework
-	* CoreFoundation.framework
-	* QuartzCore.framework
-	* AssetsLibrary.framework
-	* ImageIO.framework
-	* Accelerate.framework
-	* MobileCoreServices.framework
+	* UIKit
+	* CoreFoundation
+	* QuartzCore
+	* AssetsLibrary
+	* ImageIO
+	* Accelerate
+	* MobileCoreServices
 	* libz
 4. Add `Vendor/WebP.framework`(static library) to your Xcode project if you want to support webp.
 5. Import `YYImage.h`.
 
 
-About
+Documentation
 ==============
-This library supports iOS 6.0 and later.
+Full API documentation is available on [CocoaDocs](http://cocoadocs.org/docsets/YYImage/).<br/>
+You can also install documentation locally using [appledoc](https://github.com/tomaz/appledoc).
+
+
+Requirements
+==============
+This library requires a deployment target of iOS 6.0 or greater.
 
 
 License
@@ -322,16 +328,20 @@ YYImage: 功能强大的 iOS 图像框架。<br/>
 1. 下载 YYImage 文件夹内的所有内容。
 2. 将 YYModel 内的源文件添加(拖放)到你的工程。
 3. 链接以下 frameworks:
-	* UIKit.framework
-	* CoreFoundation.framework
-	* QuartzCore.framework
-	* AssetsLibrary.framework
-	* ImageIO.framework
-	* Accelerate.framework
-	* MobileCoreServices.framework
+	* UIKit
+	* CoreFoundation
+	* QuartzCore
+	* AssetsLibrary
+	* ImageIO
+	* Accelerate
+	* MobileCoreServices
 	* libz
 4. 如果你需要支持 webp，可以将 `Vendor/WebP.framework`(静态库) 加入你的工程。
 5. 导入 `YYImage.h`。
+
+文档
+==============
+你可以在 [CocoaDocs](http://cocoadocs.org/docsets/YYImage/) 查看在线 API 文档，也可以用 [appledoc](https://github.com/tomaz/appledoc) 本地生成文档。
 
 
 关于
@@ -346,5 +356,6 @@ YYModel 使用 MIT 许可证，详情见 LICENSE 文件。
 
 相关链接
 ==============
-[移动端图片格式调研](http://blog.ibireme.com/2015/11/02/mobile_image_benchmark/)
+[移动端图片格式调研](http://blog.ibireme.com/2015/11/02/mobile_image_benchmark/)<br/>
+
 [iOS 处理图片的一些小 Tip](http://blog.ibireme.com/2015/11/02/ios_image_tips/)
